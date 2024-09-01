@@ -1,0 +1,30 @@
+.dashboard-container {
+  width: 100vw;
+  height: 100%;
+}
+.dashboard-components {
+    padding-bottom: 20px;
+}
+.dash-title-span {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 42px;
+}
+
+@media (min-width: 1024px) {
+  .dashboard-container {
+    width: calc(100vw - 245px);
+    margin-left: 254px;
+  }
+  .dashboard-components {
+    width: fit-content;
+    height: fit-content;
+    padding: 0px 40px 20px 40px;
+    gap: 14px 100px;
+    /* width: calc(100vw - 245px); */
+    /* height: calc(100% - 60px); */
+  }
+  .dash-title-span {
+    font-size: 24px;
+  }
+}
